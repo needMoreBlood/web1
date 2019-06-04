@@ -1,0 +1,44 @@
+﻿@model System.Collections.Generic.List<WebApplication3.Models.DbTatooSalon>
+@{
+	ViewBag.Title = "Заказ";
+	Layout = "_Layout";
+}
+<h2>@ViewBag.Title</h2>
+@foreach (var ship in Model)
+{
+	<div>
+		@ship.VisitorName
+		@ship.Age
+		@ship.Id
+		<img src="Image?id=@ship.Id" />
+		<table class="table table-bordered table-responsive table-hover">
+			<thead>
+				<tr>
+					<td>Id</td>
+					<td>Контакты</td>
+					<td>Пол</td>
+					<td>Мастер</td>
+					<td>Стиль тату</td>
+					<td>Дата</td>
+					<td>Часть тела</td>
+				</tr>
+			</thead>
+			@if (ship.Journal != null)
+			{
+				foreach (var sm in ship.Journal)
+				{
+			<tr>
+				<td>@sm.Id</td>
+				<td>@sm.Contacts</td>
+				<td>@sm.Gender</td>
+				<td>@sm.Master</td>
+				<td>@sm.TatooStyles</td>
+				<td>@sm.DateToVisit</td>
+				<td>@sm.TatooStyles</td>
+			</tr>
+				}
+			}
+		</table>
+	</div>
+}
+
