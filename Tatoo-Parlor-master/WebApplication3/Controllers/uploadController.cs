@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Collections.ObjectModel;
 using System.IO;
 using Microsoft.EntityFrameworkCore;
-using TatooParlor.Web.Models.DataAccessPostgreSqlProvider;
+//using TatooParlor.Web.Models.DataAccessPostgreSqlProvider;
 using TatooParlor.Web.Models;
 
 namespace TatooParlor.Web.Controllers

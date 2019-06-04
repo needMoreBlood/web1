@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using WebApplication3.Models.DataAccessPostgreSqlProvider;
+using TatooParlor.Web.Models;
 
 namespace SpaceFleet.Web
 {
@@ -36,11 +36,11 @@ namespace SpaceFleet.Web
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
-            var sqlConnectionString = Configuration.GetConnectionString("SpaceFleetDbProvider");
+            var sqlConnectionString = Configuration.GetConnectionString("TatooParlorDbProvider");
 
-            SpaceFleetDbContext.ConnectionString = sqlConnectionString;
+            TatooParlorDbContext.ConnectionString = sqlConnectionString;
 
-            services.AddDbContext<SpaceFleetDbContext>(options =>
+            services.AddDbContext<TatooParlorDbContext>(options =>
                 options.UseNpgsql(
                     sqlConnectionString
                 )
