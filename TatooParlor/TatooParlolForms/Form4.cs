@@ -16,7 +16,7 @@ namespace TatooParlolForms
     public partial class Form4 : Form
     {
         public Registration Registration { get; }
-        public Tatoo Tatoo { get; }
+        //public Tatoo Tatoo { get; }
         
 
         public Form4(Registration registration)
