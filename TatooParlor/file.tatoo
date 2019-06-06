@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<TatooSalon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Journal>
+    <Registration>
+      <VisitorName>11111111111112</VisitorName>
+      <Age>2222222</Age>
+      <Contacts>444444</Contacts>
+      <Gender>333333</Gender>
+      <DateToVisit>2019-06-05T18:01:33.4413801+05:00</DateToVisit>
+      <TatooStyles>Минимализм</TatooStyles>
+      <BodyPart>Ноги</BodyPart>
+      <Master>Анатолий Ряхин</Master>
+    </Registration>
+    <Registration>
+      <VisitorName>ererer</VisitorName>
+      <Age>erererer</Age>
+      <Contacts>erere</Contacts>
+      <Gender>ererere</Gender>
+      <DateToVisit>2019-05-31T18:01:43</DateToVisit>
+      <TatooStyles>Blackwork</TatooStyles>
+      <BodyPart>Плечи</BodyPart>
+      <Master>Анатолий Ряхин</Master>
+    </Registration>
+    <Registration>
+      <VisitorName>000000000</VisitorName>
+      <Age>popopop</Age>
+      <Contacts>uiui</Contacts>
+      <Gender>ioio</Gender>
+      <DateToVisit>2019-06-30T18:01:54</DateToVisit>
+      <TatooStyles> Celtic</TatooStyles>
+      <BodyPart>Спина</BodyPart>
+      <Master>Рузана Маликова</Master>
+    </Registration>
+  </Journal>
+</TatooSalon>
